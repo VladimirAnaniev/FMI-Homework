@@ -1,0 +1,4 @@
+﻿  ChessBoard.cpp
+d:\programming\visual studio projects\fmi up homework 1\4. chess board\chessboard.cpp(26): warning C4715: 'isCheck': not all control paths return a value
+  4. Chess Board.vcxproj -> D:\Programming\Visual Studio Projects\FMI UP Homework 1\Debug\4. Chess Board.exe
+  4. Chess Board.vcxproj -> D:\Programming\Visual Studio Projects\FMI UP Homework 1\Debug\4. Chess Board.pdb (Partial PDB)

@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (FMI UP Homework 1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  81459_problem2_vc.cpp
+d:\programming\visual studio projects\fmi up homework 1\fmi up homework 1\81459_problem2_vc.cpp(21): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+d:\programming\visual studio projects\fmi up homework 1\fmi up homework 1\81459_problem2_vc.cpp(33): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  FMI UP Homework 1.vcxproj -> D:\Programming\Visual Studio Projects\FMI UP Homework 1\Debug\2.EGN.exe
+  FMI UP Homework 1.vcxproj -> D:\Programming\Visual Studio Projects\FMI UP Homework 1\Debug\2.EGN.pdb (Partial PDB)
