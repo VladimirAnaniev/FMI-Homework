@@ -16,32 +16,31 @@
 
 using namespace std;
 
-int factorial(int n)
+unsigned getBinomial(unsigned n, unsigned k)
 {
-	int result = 1;
+	if (k > n - k) k = n - k;  // C of k and n-k are equal, so choose the smaller one
 
-	for(int i=1;i<=n;i++)
+	unsigned result = 1;
+
+	for (unsigned i = 1; i <= k; i++)
 	{
-		result *= i;
+		result *= n - k + i;
+		result /= i;
 	}
 
 	return result;
 }
 
-int getBinomial (int n, int k)
-{
-	return factorial(n) / (factorial(k)*factorial(n - k));
-}
-
 int main()
 {
-	int n;
+	unsigned n;
 
 	cin >> n;
 
-	for (int i = 0; i <= n; i++)
+	for (unsigned i = 0; i <= n; i++)
 	{
-		cout << getBinomial(n, i) << " ";
+		cout << getBinomial(n, i);
+		if (i != n) cout << ' ';
 	}
 
 	system("pause");

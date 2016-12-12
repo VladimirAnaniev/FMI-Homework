@@ -26,7 +26,7 @@ int getBase10(int num, int base)
 		int baseMultiplier = 1;
 		int digit = num % 10;
 
-		if (digit > base) return -1; //bad input data
+		if (digit >= base) return -1; //bad input data
 
 		for(int i=0;i<count;i++)
 		{

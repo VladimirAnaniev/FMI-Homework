@@ -16,13 +16,13 @@
 
 using namespace std;
 
-int getNthPower(int n, int pow)
+int getModularPower(int base, int power, int modulus)
 {
 	int result = 1;
 
-	for(int i=0;i<pow;i++)
+	for (int i = 0; i < power; i++)
 	{
-		result *= n;
+		result = (result*base) % modulus;
 	}
 
 	return result;
@@ -38,7 +38,7 @@ int main()
 
 	for (int i = 1; i < m; i++)
 	{
-		if(getNthPower(i, n) % m == y)
+		if(getModularPower(i, n, m) == y)
 		{
 			if (count) cout << " ";
 			cout << i;

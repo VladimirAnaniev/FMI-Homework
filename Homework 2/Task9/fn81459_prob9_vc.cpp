@@ -16,7 +16,7 @@
 
 using namespace std;
 
-int removeNthElement(int num, int index)
+int removeNthElement(int num, int n)
 {
 	int result = 0;
 	int count = 0;
@@ -24,7 +24,7 @@ int removeNthElement(int num, int index)
 
 	while(num>0)
 	{
-		if (count != index)
+		if (count != n)
 		{
 			int digit = num % 10;
 			int multiply = 1;
@@ -56,18 +56,20 @@ int removeNthElement(int num, int index)
 
 bool getResult(int first, int second)
 {
-	int count = 0;
+	int n = 0;
 
 	int firstNumber = first;
 
+	if (first == 0 && second == 0) return true; //special case
+
 	while(first>0)
 	{
-		int newNum = removeNthElement(firstNumber, count);
+		int newNum = removeNthElement(firstNumber, n);
 
 		if (newNum == second) return true;
 
 		first = first / 10;
-		count++;
+		n++;
 
 	}
 

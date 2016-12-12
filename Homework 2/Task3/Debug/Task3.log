@@ -1,5 +1,5 @@
 ﻿  fn81459_prob3_vc.cpp
-d:\programming\visual studio projects\fmi homework 2\task3\fn81459_prob3_vc.cpp(28): warning C4018: '<': signed/unsigned mismatch
-d:\programming\visual studio projects\fmi homework 2\task3\fn81459_prob3_vc.cpp(31): warning C4018: '<': signed/unsigned mismatch
-  Task3.vcxproj -> D:\Programming\Visual Studio Projects\FMI Homework 2\Debug\Task3.exe
-  Task3.vcxproj -> D:\Programming\Visual Studio Projects\FMI Homework 2\Debug\Task3.pdb (Partial PDB)
+d:\programming\visual studio projects\homework 2\task3\fn81459_prob3_vc.cpp(28): warning C4018: '<': signed/unsigned mismatch
+d:\programming\visual studio projects\homework 2\task3\fn81459_prob3_vc.cpp(31): warning C4018: '<': signed/unsigned mismatch
+  Task3.vcxproj -> D:\Programming\Visual Studio Projects\Homework 2\Debug\Task3.exe
+  Task3.vcxproj -> D:\Programming\Visual Studio Projects\Homework 2\Debug\Task3.pdb (Partial PDB)
