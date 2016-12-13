@@ -59,7 +59,5 @@ int main()
 		cout << max(v1, v2) << endl;;
 	}
 
-	system("pause");
-
 	return 0;
 }

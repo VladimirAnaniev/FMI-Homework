@@ -25,17 +25,20 @@ int main()
 
 	int occurences = 0;
 
-	for (int i = 0; i < b.length(); i++)
+	for (int i = 0; i <= b.length() - a.length(); i++)
 	{
 		bool helper = true;
 		for (int u = 0; u < a.length(); u++)
 		{
-			if (b[i + u] != a[u]) helper = false;
+			if (b[i + u] != a[u]) {
+				helper = false;
+				break;
+			}
 		}
 		if (helper) occurences++;
 	}
 
 	cout << occurences;
 
-	system("pause");
+	return 0;
 }

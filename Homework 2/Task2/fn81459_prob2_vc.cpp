@@ -57,7 +57,5 @@ int main()
 		cout << first << ' ' << first + 2 << endl;
 	}
 
-	system("pause");
-
 	return 0;
 }

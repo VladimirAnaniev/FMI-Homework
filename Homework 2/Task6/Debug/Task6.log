@@ -1,3 +1,4 @@
-﻿  fn81459_prob6_vc.cpp
-  Task6.vcxproj -> D:\Programming\Visual Studio Projects\Homework 2\Debug\Task6.exe
-  Task6.vcxproj -> D:\Programming\Visual Studio Projects\Homework 2\Debug\Task6.pdb (Partial PDB)
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Task6.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  fn81459_prob6_vc.cpp
+  Task6.vcxproj -> D:\Programming\GitHub Projects\FMI-Homework\Homework 2\Debug\fn81459_prob6_vc.exe
+  Task6.vcxproj -> D:\Programming\GitHub Projects\FMI-Homework\Homework 2\Debug\fn81459_prob6_vc.pdb (Partial PDB)

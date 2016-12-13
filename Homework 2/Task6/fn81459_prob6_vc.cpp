@@ -43,7 +43,5 @@ int main()
 		if (i != n) cout << ' ';
 	}
 
-	system("pause");
-
 	return 0;
 }

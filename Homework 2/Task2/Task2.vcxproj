@@ -22,6 +22,7 @@
     <ProjectGuid>{CD9D72A2-282C-464B-B493-2C7BE427708D}</ProjectGuid>
     <RootNamespace>Task2</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>fn81459_prob2_vc</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -52,7 +52,5 @@ int main()
 	if (aIsInB(a, b) && aIsInB(b, a)) cout << "Yes";
 	else cout << "No";
 
-	system("pause");
-
 	return 0;
 }
