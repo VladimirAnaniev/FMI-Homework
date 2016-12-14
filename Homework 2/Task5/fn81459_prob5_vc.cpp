@@ -24,7 +24,9 @@ double calcSpeed(int n, double a, double d)
 
 double calcDistance(int n, double a, double d)
 {
-	return calcSpeed(n - 1, a, d)*d + a*d*d / 2;
+	double speed = calcSpeed(n - 1, a, d);
+	if (speed < 0) speed = 0;
+	return speed*d + a*d*d / 2;
 }
 
 int main()
