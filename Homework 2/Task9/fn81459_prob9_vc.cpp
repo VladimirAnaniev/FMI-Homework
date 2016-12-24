@@ -87,5 +87,7 @@ int main()
 	if (result) cout << "Yes";
 	else cout << "No";
 
+	system("pause");
+
 	return 0;
 }

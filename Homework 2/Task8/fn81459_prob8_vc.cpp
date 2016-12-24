@@ -81,7 +81,7 @@ int main()
 		int firstNum = getBase10(first, base);
 		int secondNum = getBase10(second, base);
 
-		if (firstNum > 0 && secondNum > 0)
+		if (firstNum >= 0 && secondNum >= 0)
 		{
 			cout << toBaseN(firstNum + secondNum, base);
 		}

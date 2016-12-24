@@ -1,6 +1,4 @@
 ﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Task3.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   fn81459_prob3_vc.cpp
-d:\programming\github projects\fmi-homework\homework 2\task3\fn81459_prob3_vc.cpp(28): warning C4018: '<=': signed/unsigned mismatch
-d:\programming\github projects\fmi-homework\homework 2\task3\fn81459_prob3_vc.cpp(31): warning C4018: '<': signed/unsigned mismatch
   Task3.vcxproj -> D:\Programming\GitHub Projects\FMI-Homework\Homework 2\Debug\fn81459_prob3_vc.exe
   Task3.vcxproj -> D:\Programming\GitHub Projects\FMI-Homework\Homework 2\Debug\fn81459_prob3_vc.pdb (Partial PDB)

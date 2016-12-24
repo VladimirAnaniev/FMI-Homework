@@ -13,26 +13,32 @@
 */
 
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
-double calcSpeed(int n, double a, double d)
+double calcSpeed(int n, double* arr, double d)
 {
 	if (n == 0) return 0;
-	return calcSpeed(n - 1, a, d) + a*d;
+	double current = calcSpeed(n - 1, arr, d) + arr[n] * d;
+	if (current > 0) return current;
+	return 0;
 }
 
-double calcDistance(int n, double a, double d)
+double calcDistance(int n, double* arr, double d)
 {
-	double speed = calcSpeed(n - 1, a, d);
+	double speed = calcSpeed(n-1, arr, d);
 	if (speed < 0) speed = 0;
-	return speed*d + a*d*d / 2;
+	double dist = speed*d + arr[n] * d*d / 2;
+	if (dist > 0) return dist;
+	return 0;
 }
 
 int main()
 {
 	int n;
 	double d, sum = 0;
+	double arr[100];
 
 	cin >> n >> d;
 
@@ -40,11 +46,12 @@ int main()
 	{
 		double current;
 		cin >> current;
+		arr[i] = current;
 
-		sum += calcDistance(i, current, d);
+		sum += calcDistance(i, arr, d);
 	}
 
-	cout << sum;
+	cout << fixed << setprecision(5) << sum;
 
 	return 0;
 }

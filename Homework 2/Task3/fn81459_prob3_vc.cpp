@@ -19,23 +19,38 @@ using namespace std;
 
 int main()
 {
-	string a, b;
+	unsigned int a, b;
 
 	cin >> a >> b;
 
+	char arrA[10], arrB[10];
+
+	_itoa_s(a, arrA, 10, 10);
+	_itoa_s(b, arrB, 10, 10);
+
 	int occurences = 0;
 
-	for (int i = 0; i <= b.length() - a.length(); i++)
+	int countA = 0, countB = 0;
+	int maxLen = strlen(arrB) - strlen(arrA);
+
+	while(arrB)
 	{
-		bool helper = true;
-		for (int u = 0; u < a.length(); u++)
+		bool help = true;
+		while(arrA)
 		{
-			if (b[i + u] != a[u]) {
-				helper = false;
+			if (arrA[countA] == '\0') break;
+			if(arrB[countA+countB] != arrA[countA])
+			{
+				help = false;
 				break;
 			}
+			countA++;
 		}
-		if (helper) occurences++;
+		
+		countA = 0;
+		countB++;
+		if (help) occurences++;
+		if (countB > maxLen) break;
 	}
 
 	cout << occurences;
