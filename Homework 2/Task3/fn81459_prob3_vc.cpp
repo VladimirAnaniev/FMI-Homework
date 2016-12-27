@@ -13,25 +13,37 @@
 */
 
 #include <iostream>
-#include <string>
 
 using namespace std;
+
+void stringify(int num, char* arr, int& len) //Returns the number reversed, but still works
+{
+	len = 0;
+	while(num && len<10)
+	{
+		arr[len] = num % 10 + 48;
+		num /= 10;
+		len++;
+	}
+	arr[len] = '\0';
+}
 
 int main()
 {
 	unsigned int a, b;
+	int  lenA, lenB;
 
 	cin >> a >> b;
 
-	char arrA[10], arrB[10];
+	char arrA[11], arrB[11];
 
-	_itoa_s(a, arrA, 10, 10);
-	_itoa_s(b, arrB, 10, 10);
+	stringify(a, arrA, lenA);
+	stringify(b, arrB, lenB);
 
 	int occurences = 0;
 
 	int countA = 0, countB = 0;
-	int maxLen = strlen(arrB) - strlen(arrA);
+	int maxLen = lenB-lenA;
 
 	while(arrB)
 	{
@@ -55,5 +67,6 @@ int main()
 
 	cout << occurences;
 
+	system("pause");
 	return 0;
 }
