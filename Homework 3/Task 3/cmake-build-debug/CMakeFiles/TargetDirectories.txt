@@ -1,3 +1,3 @@
-/home/vladimir/Programming/FMI-Homework-3/Task 3/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/vladimir/Programming/FMI-Homework-3/Task 3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/vladimir/Programming/FMI-Homework-3/Task 3/cmake-build-debug/CMakeFiles/Task_3.dir
+/home/vladimir/Programming/FMI-Homework/Homework 3/Task 3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/vladimir/Programming/FMI-Homework/Homework 3/Task 3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/vladimir/Programming/FMI-Homework/Homework 3/Task 3/cmake-build-debug/CMakeFiles/Task_3.dir
