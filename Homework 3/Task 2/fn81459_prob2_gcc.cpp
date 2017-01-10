@@ -12,21 +12,6 @@ void printResult(int num, int* arr, int len) {
     cout<<endl;
 }
 
-bool makeCombinations(int num, int* arr, int& len) {
-    if(len==0) {
-        arr[0] = num;
-        len++;
-        return true;
-    }
-    for(int i=len-1;i>=0;i--) {
-        if(arr[i]>1) {
-
-        }
-    }
-
-    return false;
-}
-
 int makeSum(int sum, int* prev, int len, int needed) {
     if(needed>0) {
         prev[len] = needed;
@@ -60,7 +45,7 @@ int main() {
     int arr[32] = {0};
     cin>>n;
 
-    for(int i=n;i>=0;i--)
+    for(int i=n;i>=1;i--)
     {
 
         arr[0] = i;
