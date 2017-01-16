@@ -17,14 +17,9 @@
 using namespace std;
 
 void recursiveFunction(int n) {
-    if(n==1) {
-        cout<<n;
-    }
-    else {
-        recursiveFunction(n-1);
-        cout<<n;
-        recursiveFunction(n-1);
-    }
+    if(n>1) recursiveFunction(n-1);
+    cout<<n;
+    if(n>1) recursiveFunction(n-1);
 }
 
 int main() {
