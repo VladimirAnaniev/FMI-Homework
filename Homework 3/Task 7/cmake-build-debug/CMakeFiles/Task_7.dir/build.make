@@ -43,10 +43,10 @@ RM = /home/vladimir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/163.9166.31/b
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/vladimir/Programming/FMI-Homework-3/Task 7"
+CMAKE_SOURCE_DIR = "/home/vladimir/Programming/FMI-Homework/Homework 3/Task 7"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/vladimir/Programming/FMI-Homework-3/Task 7/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/vladimir/Programming/FMI-Homework/Homework 3/Task 7/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Task_7.dir/depend.make
@@ -57,41 +57,41 @@ include CMakeFiles/Task_7.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Task_7.dir/flags.make
 
-CMakeFiles/Task_7.dir/main.cpp.o: CMakeFiles/Task_7.dir/flags.make
-CMakeFiles/Task_7.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vladimir/Programming/FMI-Homework-3/Task 7/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Task_7.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_7.dir/main.cpp.o -c "/home/vladimir/Programming/FMI-Homework-3/Task 7/main.cpp"
+CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.o: CMakeFiles/Task_7.dir/flags.make
+CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.o: ../fn81459_prob7_gcc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vladimir/Programming/FMI-Homework/Homework 3/Task 7/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.o -c "/home/vladimir/Programming/FMI-Homework/Homework 3/Task 7/fn81459_prob7_gcc.cpp"
 
-CMakeFiles/Task_7.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_7.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/vladimir/Programming/FMI-Homework-3/Task 7/main.cpp" > CMakeFiles/Task_7.dir/main.cpp.i
+CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/vladimir/Programming/FMI-Homework/Homework 3/Task 7/fn81459_prob7_gcc.cpp" > CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.i
 
-CMakeFiles/Task_7.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_7.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/vladimir/Programming/FMI-Homework-3/Task 7/main.cpp" -o CMakeFiles/Task_7.dir/main.cpp.s
+CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/vladimir/Programming/FMI-Homework/Homework 3/Task 7/fn81459_prob7_gcc.cpp" -o CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.s
 
-CMakeFiles/Task_7.dir/main.cpp.o.requires:
+CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.o.requires:
 
-.PHONY : CMakeFiles/Task_7.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.o.requires
 
-CMakeFiles/Task_7.dir/main.cpp.o.provides: CMakeFiles/Task_7.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Task_7.dir/build.make CMakeFiles/Task_7.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/Task_7.dir/main.cpp.o.provides
+CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.o.provides: CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Task_7.dir/build.make CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.o.provides.build
+.PHONY : CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.o.provides
 
-CMakeFiles/Task_7.dir/main.cpp.o.provides.build: CMakeFiles/Task_7.dir/main.cpp.o
+CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.o.provides.build: CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.o
 
 
 # Object files for target Task_7
 Task_7_OBJECTS = \
-"CMakeFiles/Task_7.dir/main.cpp.o"
+"CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.o"
 
 # External object files for target Task_7
 Task_7_EXTERNAL_OBJECTS =
 
-Task_7: CMakeFiles/Task_7.dir/main.cpp.o
+Task_7: CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.o
 Task_7: CMakeFiles/Task_7.dir/build.make
 Task_7: CMakeFiles/Task_7.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/vladimir/Programming/FMI-Homework-3/Task 7/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Task_7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/vladimir/Programming/FMI-Homework/Homework 3/Task 7/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Task_7"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Task_7.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +99,7 @@ CMakeFiles/Task_7.dir/build: Task_7
 
 .PHONY : CMakeFiles/Task_7.dir/build
 
-CMakeFiles/Task_7.dir/requires: CMakeFiles/Task_7.dir/main.cpp.o.requires
+CMakeFiles/Task_7.dir/requires: CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.o.requires
 
 .PHONY : CMakeFiles/Task_7.dir/requires
 
@@ -108,6 +108,6 @@ CMakeFiles/Task_7.dir/clean:
 .PHONY : CMakeFiles/Task_7.dir/clean
 
 CMakeFiles/Task_7.dir/depend:
-	cd "/home/vladimir/Programming/FMI-Homework-3/Task 7/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/vladimir/Programming/FMI-Homework-3/Task 7" "/home/vladimir/Programming/FMI-Homework-3/Task 7" "/home/vladimir/Programming/FMI-Homework-3/Task 7/cmake-build-debug" "/home/vladimir/Programming/FMI-Homework-3/Task 7/cmake-build-debug" "/home/vladimir/Programming/FMI-Homework-3/Task 7/cmake-build-debug/CMakeFiles/Task_7.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/vladimir/Programming/FMI-Homework/Homework 3/Task 7/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/vladimir/Programming/FMI-Homework/Homework 3/Task 7" "/home/vladimir/Programming/FMI-Homework/Homework 3/Task 7" "/home/vladimir/Programming/FMI-Homework/Homework 3/Task 7/cmake-build-debug" "/home/vladimir/Programming/FMI-Homework/Homework 3/Task 7/cmake-build-debug" "/home/vladimir/Programming/FMI-Homework/Homework 3/Task 7/cmake-build-debug/CMakeFiles/Task_7.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Task_7.dir/depend
 

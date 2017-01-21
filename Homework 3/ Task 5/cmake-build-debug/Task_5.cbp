@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/vladimir/Programming/FMI-Homework/Homework 3/ Task 5/main.cpp">
+		<Unit filename="/home/vladimir/Programming/FMI-Homework/Homework 3/ Task 5/fn81459_prob5_gcc.cpp">
 			<Option target="Task_5"/>
 		</Unit>
 		<Unit filename="/home/vladimir/Programming/FMI-Homework/Homework 3/ Task 5/CMakeLists.txt">

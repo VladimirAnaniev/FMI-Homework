@@ -20,14 +20,10 @@ using namespace std;
 void weirdPrint(char* word, int len, int n) {
     n = n%len;
 
-    //TODO: find out if test is true??
-    //Ana-Maria 4
-    //MariaAna- or ariaAna-M???
-
-    for(int i=n;i<len;i++) {
+    for(int i=len-n;i<=len;i++) {
         cout<<word[i];
     }
-    for(int i=0;i<n;i++) {
+    for(int i=0;i<len-n;i++) {
         cout<<word[i];
     }
 }

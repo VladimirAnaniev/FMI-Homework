@@ -18,8 +18,8 @@
 using namespace std;
 
 bool isVowel(char c) {
-    return (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ||
-            c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U');
+    return (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'y' ||
+            c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' || c == 'Y');
 }
 
 int findVowel(char* word, int len) {
@@ -50,7 +50,7 @@ void weirdPrint(char* word, int len) {
         for(int i=0;i<len;i++) {
             cout<<word[i];
         }
-        if(isUppercase(word[0]) && isUppercase(word[len-1])) {
+        if(isUppercase(word[0]) && isUppercase(word[len-1]) && len>1) {
             cout<<"WAY";
         }
         else {

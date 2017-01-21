@@ -1,1 +1,1 @@
-/usr/bin/c++   -g   CMakeFiles/Task_8.dir/main.cpp.o  -o Task_8 
+/usr/bin/c++   -g   CMakeFiles/Task_8.dir/fn81459_prob8_gcc.cpp.o  -o Task_8 

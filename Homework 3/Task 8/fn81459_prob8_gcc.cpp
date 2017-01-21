@@ -16,6 +16,12 @@
 
 using namespace std;
 
+int getModulo(int num) {
+    if(num>=0) return num%3;
+
+    return 3 + (num % 3);
+}
+
 int main() {
     int n;
     cin>>n;
@@ -26,9 +32,9 @@ int main() {
         cin>>nums[i];
     }
 
-    for(int left=0;left<2;left++) {
+    for(int left=0;left<3;left++) {
         for(int i=0;i<n;i++) {
-            if(nums[i]%3==left) {
+            if(getModulo(nums[i])==left) {
                 cout<<nums[i]<<" ";
                 nums[i] =0;
             }
@@ -36,9 +42,9 @@ int main() {
     }
 
     //Print all remaining
-    for(int i=0;i<n;i++) {
-        if(nums[i]!=0) cout<<nums[i]<<" ";
-    }
+    //for(int i=0;i<n;i++) {
+        //if(nums[i]!=0) cout<<nums[i]<<" ";
+    //}
 
     return 0;
 }

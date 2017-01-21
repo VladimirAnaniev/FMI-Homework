@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/vladimir/Programming/FMI-Homework-3/Task 8/main.cpp" "/home/vladimir/Programming/FMI-Homework-3/Task 8/cmake-build-debug/CMakeFiles/Task_8.dir/main.cpp.o"
+  "/home/vladimir/Programming/FMI-Homework/Homework 3/Task 8/fn81459_prob8_gcc.cpp" "/home/vladimir/Programming/FMI-Homework/Homework 3/Task 8/cmake-build-debug/CMakeFiles/Task_8.dir/fn81459_prob8_gcc.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

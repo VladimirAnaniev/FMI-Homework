@@ -1,1 +1,1 @@
-/usr/bin/c++   -g   CMakeFiles/Task_5.dir/main.cpp.o  -o Task_5 
+/usr/bin/c++   -g   CMakeFiles/Task_5.dir/fn81459_prob5_gcc.cpp.o  -o Task_5 

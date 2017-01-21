@@ -48,10 +48,10 @@ RM = /home/vladimir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/163.9166.31/b
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/vladimir/Programming/FMI-Homework-3/Task 7"
+CMAKE_SOURCE_DIR = "/home/vladimir/Programming/FMI-Homework/Homework 3/Task 7"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/vladimir/Programming/FMI-Homework-3/Task 7/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/vladimir/Programming/FMI-Homework/Homework 3/Task 7/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vladimir/Programming/FMI-Homework-3/Task 7/cmake-build-debug/CMakeFiles" "/home/vladimir/Programming/FMI-Homework-3/Task 7/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vladimir/Programming/FMI-Homework/Homework 3/Task 7/cmake-build-debug/CMakeFiles" "/home/vladimir/Programming/FMI-Homework/Homework 3/Task 7/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vladimir/Programming/FMI-Homework-3/Task 7/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vladimir/Programming/FMI-Homework/Homework 3/Task 7/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ Task_7/fast:
 	$(MAKE) -f CMakeFiles/Task_7.dir/build.make CMakeFiles/Task_7.dir/build
 .PHONY : Task_7/fast
 
-main.o: main.cpp.o
+fn81459_prob7_gcc.o: fn81459_prob7_gcc.cpp.o
 
-.PHONY : main.o
+.PHONY : fn81459_prob7_gcc.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Task_7.dir/build.make CMakeFiles/Task_7.dir/main.cpp.o
-.PHONY : main.cpp.o
+fn81459_prob7_gcc.cpp.o:
+	$(MAKE) -f CMakeFiles/Task_7.dir/build.make CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.o
+.PHONY : fn81459_prob7_gcc.cpp.o
 
-main.i: main.cpp.i
+fn81459_prob7_gcc.i: fn81459_prob7_gcc.cpp.i
 
-.PHONY : main.i
+.PHONY : fn81459_prob7_gcc.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Task_7.dir/build.make CMakeFiles/Task_7.dir/main.cpp.i
-.PHONY : main.cpp.i
+fn81459_prob7_gcc.cpp.i:
+	$(MAKE) -f CMakeFiles/Task_7.dir/build.make CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.i
+.PHONY : fn81459_prob7_gcc.cpp.i
 
-main.s: main.cpp.s
+fn81459_prob7_gcc.s: fn81459_prob7_gcc.cpp.s
 
-.PHONY : main.s
+.PHONY : fn81459_prob7_gcc.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Task_7.dir/build.make CMakeFiles/Task_7.dir/main.cpp.s
-.PHONY : main.cpp.s
+fn81459_prob7_gcc.cpp.s:
+	$(MAKE) -f CMakeFiles/Task_7.dir/build.make CMakeFiles/Task_7.dir/fn81459_prob7_gcc.cpp.s
+.PHONY : fn81459_prob7_gcc.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Task_7"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... fn81459_prob7_gcc.o"
+	@echo "... fn81459_prob7_gcc.i"
+	@echo "... fn81459_prob7_gcc.s"
 .PHONY : help
 
 

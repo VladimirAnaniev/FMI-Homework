@@ -17,10 +17,10 @@
 
 using namespace std;
 
-int makeInt(char* num, int len, int base) {
-    int result=0;
+long makeInt(char* num, int len, int base) {
+    long result=0;
 
-    int help=1;
+    long help=1;
 
     for(int i=len-1;i>=0;i--) {
         if(num[i]<='9') result+=(num[i]-'0')*help;
@@ -32,7 +32,7 @@ int makeInt(char* num, int len, int base) {
     return result;
 }
 
-int getNum(char* str, int end) {
+long getNum(char* str, int end) {
     if(str[0]=='0')
     {
         if(str[1] == 'b') return makeInt(str+2, end-2, 2);
@@ -47,7 +47,7 @@ int main() {
 
     cin.getline(exp,1000);
     int len = (int) strlen(exp);
-    int sum=0;
+    long sum=0;
 
     int lastNumStart = 0;
     for(int i=0;i<len;i++) {
@@ -61,7 +61,6 @@ int main() {
     sum+= getNum(exp+lastNumStart, len-lastNumStart);
 
     cout<<sum;
-
 
     return 0;
 }

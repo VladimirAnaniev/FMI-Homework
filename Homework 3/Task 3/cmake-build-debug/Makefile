@@ -123,32 +123,32 @@ Task_3/fast:
 	$(MAKE) -f CMakeFiles/Task_3.dir/build.make CMakeFiles/Task_3.dir/build
 .PHONY : Task_3/fast
 
-main.o: main.cpp.o
+fn81459_prob3_gcc.o: fn81459_prob3_gcc.cpp.o
 
-.PHONY : main.o
+.PHONY : fn81459_prob3_gcc.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Task_3.dir/build.make CMakeFiles/Task_3.dir/main.cpp.o
-.PHONY : main.cpp.o
+fn81459_prob3_gcc.cpp.o:
+	$(MAKE) -f CMakeFiles/Task_3.dir/build.make CMakeFiles/Task_3.dir/fn81459_prob3_gcc.cpp.o
+.PHONY : fn81459_prob3_gcc.cpp.o
 
-main.i: main.cpp.i
+fn81459_prob3_gcc.i: fn81459_prob3_gcc.cpp.i
 
-.PHONY : main.i
+.PHONY : fn81459_prob3_gcc.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Task_3.dir/build.make CMakeFiles/Task_3.dir/main.cpp.i
-.PHONY : main.cpp.i
+fn81459_prob3_gcc.cpp.i:
+	$(MAKE) -f CMakeFiles/Task_3.dir/build.make CMakeFiles/Task_3.dir/fn81459_prob3_gcc.cpp.i
+.PHONY : fn81459_prob3_gcc.cpp.i
 
-main.s: main.cpp.s
+fn81459_prob3_gcc.s: fn81459_prob3_gcc.cpp.s
 
-.PHONY : main.s
+.PHONY : fn81459_prob3_gcc.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Task_3.dir/build.make CMakeFiles/Task_3.dir/main.cpp.s
-.PHONY : main.cpp.s
+fn81459_prob3_gcc.cpp.s:
+	$(MAKE) -f CMakeFiles/Task_3.dir/build.make CMakeFiles/Task_3.dir/fn81459_prob3_gcc.cpp.s
+.PHONY : fn81459_prob3_gcc.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Task_3"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... fn81459_prob3_gcc.o"
+	@echo "... fn81459_prob3_gcc.i"
+	@echo "... fn81459_prob3_gcc.s"
 .PHONY : help
 
 
